@@ -1,0 +1,165 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    background: #000 url(./../img/white-metal-grid.png) space fixed left bottom;
+}
+div.footer h3 {
+    color:#FFFAED ;
+}
+a:link{
+    text-decoration: none;
+    color: #FFFAED ;
+}
+a:visited{
+    text-decoration: none;
+    color: #FFFAED ;
+}
+div.stroke {
+    background-color: #262626;
+    height: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.header div.menu {
+    width: 70%;
+}
+div.header{
+    background-color: #BF1725;
+    display: flex;
+    height: 100px;
+    justify-content: space-between;
+    align-items: center;
+}
+div.header ul {
+    display: flex;
+    justify-content: space-between;
+
+}
+div.logo{
+    color: white;
+    margin-left: 20px;
+}
+div.menulogo{
+    color: white;
+    margin-right: 20px;
+}
+div.header ul li {
+    display: inline;
+    font-size: 23px;
+}
+div.header ul li:hover {
+    text-decoration:underline;
+}
+div.content {
+    background: url(./../img/mac.jpg);
+}
+div.subcontent{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+}
+div.subcontent div.sidebar {
+    width: 30%;
+    height: 750px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.subcontent div.fblock {
+    display: flex;
+    flex-flow: column;
+    width: 60%;
+    height: 750px;
+    margin-left: 15px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.footer {
+    height: 100px;
+    background-color: #262626;
+}
+h3{
+    padding-top: 30px;
+    text-align: center;
+}
+div.footer {
+    position: static;
+    bottom: 0;
+    width: 100%;
+    flex-direction: column;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.content {
+    height: 750px;
+}
+div.menulogo img.icons {
+    color: white;
+}
+div.subheader {
+    background-color: rgba(190, 185, 191, 0.5);
+    text-align: center;
+}
+div.post1, div.post2{
+    display: flex;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+div.subheader h1,p{
+    padding: 15px;
+    color: #262626;
+}
+div.subheader p {
+    font-size: 25px;
+}
+div.subheader h1{
+    font-size: 40px;
+    font-weight: 900;
+}
+div.title h2 {
+    color: #262626;
+    font-size: 35px;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 4px solid #262626;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.post1, div.post2 {
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 120px;
+    width: 80%;
+    border-radius: 25px;
+    height: 280px;
+}
+div.post1 img {
+    margin-left: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+div.post2 img {
+    margin-left: 10px;
+    border-radius: 25px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+p.post_date {
+    opacity: 0.7;
+}
+div.shadow {
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    opacity: 0.5;
+    border-radius: 25px;
+    margin-left: 10px;
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    background-color: black;
+    transition: all 1s linear 0s;
+}
+div.shadow:hover{
+    opacity: 0;
+    transition: 1s;
+}

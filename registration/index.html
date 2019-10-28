@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AzatAI blog registration</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="./../index.html"><img src="./../img/blogging.png" alt="" height="60px" class="color"></a>
+            </div>
+            <div class="menu">
+                <ul>
+                    <li><a href="./../index.html">HOME</a></li>
+                    <li><a href="./../blog page/index.html">BLOG</a></li>
+                    <li><a href="#">SIGN UP</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                </ul>
+            </div>
+            <div class="menulogo">
+                <a href="#"><img src="./../img/menu.png" alt="" height="55px"></a>
+            </div>
+        </div>
+        <div class="stroke"></div>
+    </header>
+    <div class="registration">
+        <form action="reg_page.php">
+            <h2>User registration</h2>
+            <p>Firstname:</p>
+            <input type="text" name="Firstname" placeholder="Enter your name" ><br>
+            <p>Lastname:</p>
+            <input type="text" name="Lastname" placeholder="Enter your lastname"><br>
+            <p>Username:</p>
+            <input type="text" name="username" placeholder="Enter your Username">
+            <p>Date of birth</p>
+            <select name="Day" class="day">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+              <select name="month" class="month">
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+              </select>
+              <select name="Year" class="year">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+              </select>
+            <p>Gender</p>
+            <input type="radio" name="gender" value="мужчина" class="radio">Male
+            <input type="radio" name="gender" value="женщина" class="radio">Female
+            <p>Password</p>
+            <input type="password" name="pass" placeholder="Enter your password">
+            <p>Repeat</p>
+            <input type="password" name="pass" placeholder="Enter your password">
+            <span><p class="button"><a href="#">SUBMIT</a></p></span>
+        </form>
+    </div>
+    <footer>
+        <div class="footer">
+            <h3> All rights reserved</h3>
+        </div>
+    </footer>
+</body>
+</html>
